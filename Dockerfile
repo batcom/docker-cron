@@ -15,7 +15,6 @@ RUN \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD ./start.sh /start.sh
-ADD ./crontab /etc/crontab
 ADD src/ /root/src/
 RUN chmod 755 /start.sh
 CMD ["/bin/bash", "/start.sh"]

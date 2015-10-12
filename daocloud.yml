@@ -1,15 +1,9 @@
 image: batcom/phpweb
 
 services:
-  - redis
 
 env:
-  - MYSQL_USERNAME = "root"
-  - MYSQL_PASSWORD = ""
-  - MYSQL_INSTANCE_NAME = "test"
-
 install:
-  - echo "install"
+
 
 script:
-  - echo "finish"

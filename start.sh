@@ -1,5 +1,5 @@
 #!/bin/bash
-cron
+python /root/src/time.py
 read
 read
 read
