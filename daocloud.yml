@@ -4,6 +4,6 @@ services:
 
 env:
 install:
-
+   - apt-get install zlib1g-dev
 
 script:
