@@ -8,7 +8,7 @@ RUN \
   apt-get -y upgrade && \
   apt-get install -y build-essential software-properties-common && \
   apt-get install -y curl git htop man unzip vim wget && \
-  apt-get install -y libxml2-dev libxslt1-dev python-dev && \
+  apt-get install -y libxml2-dev zlib1g-dev libxslt1-dev python-dev && \
   apt-get install -y python-pip python-setuptools && \
   pip install requests lxml cssselect PyQuery && \
   apt-get clean && \
