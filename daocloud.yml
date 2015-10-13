@@ -1,9 +1,14 @@
-image: batcom/phpweb
+image: daocloud/ci-python:2.7
 
 services:
 
 env:
+  - MYSQL_USERNAME = "root"
+  - MYSQL_PASSWORD = ""
+  - MYSQL_INSTANCE_NAME = "test"
+
 install:
-   - apt-get install zlib1g-dev
+  - apt-get install zlib1g-dev
 
 script:
+  - echo "finish"
